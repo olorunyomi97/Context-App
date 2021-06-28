@@ -1,7 +1,7 @@
 import React from 'react' 
 import Navbar from './components/Navbar'
 import BookList from './components/BookList'
-import ThemeContextProvider from './components/contexts/ThemeContext';
+import ThemeContextProvider from './contexts/ThemeContext';
 
 function App() {
   return (
