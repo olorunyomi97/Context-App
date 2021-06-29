@@ -5,7 +5,8 @@ const SongList = () => {
     const [songs, setSongs] = useState([
         {title: 'almost home', id: 1},
         {title: 'bitches and bottles', id: 2},
-        {title: 'hallelujah', id: 3}
+        {title: 'hallelujah', id: 3},
+        {title: '95 south', id: 4}
     ]);
     const addSong = () => {
         setSongs([...songs, { title: 'Long as my bitches love me', id: uuid()}])
