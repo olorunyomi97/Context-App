@@ -1,0 +1,25 @@
+{
+  "short_name": "Oneport365",
+  "name": "Oneport web application ",
+  "icons": [
+    {
+      "src": "oneport-favicon.png",
+      "sizes": "64x64 ",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "oneport-favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "oneport-favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FFF",
+  "background_color": "#ffffff"
+}

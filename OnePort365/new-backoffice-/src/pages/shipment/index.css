@@ -1,0 +1,66 @@
+.shippingdetails-height{
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
+}
+
+.dashboard-content {
+  max-height: 90vh !important;
+  overflow-y: scroll;
+}
+
+.cJFkPG {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  justify-content: center;
+  width: 80%;
+  min-width: 10% !important;
+}
+
+
+
+.active-ocean-tab{
+  background-color: #286a3a !important;
+  color: white !important;
+}
+
+.active-air-tab-2{
+  background-color: #286a3a !important;
+  color: white !important;
+}
+
+.active-trucking-tab-3{
+  background-color: #286a3a !important;
+  color: white !important;
+}
+
+.rdt_Table{
+  display: none;
+}
+
+
+/* .table-column {
+  margin-left: 2px;
+} */
+
+/* .rdt_TableCell {
+  position: fixed;
+} */
+
+/* #cell-1-undefined {
+  background: #F0FDF4;
+  position: fixed;
+  padding-top: 30px;
+  padding-bottom: 30px;
+} */
+
+.small-text {
+  font-size: x-small;
+}

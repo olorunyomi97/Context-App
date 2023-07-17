@@ -1,0 +1,25 @@
+.dashboard-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+.customer-shipment{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    /* line-height: 28px; */
+    display: flex;
+    align-items: center;
+    color: #000000; 
+}
+
+.customer-shipment-button{
+    margin-left: 100px;
+}

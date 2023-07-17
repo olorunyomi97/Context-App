@@ -1,0 +1,106 @@
+.custom-input {
+  border: 1px solid var(--custom-border-grey) !important;
+  font-size: 12px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  background: var(--custom-white);
+}
+
+.custom-input:focus {
+  border: 1px solid var(--custom-primary) !important;
+  border-color: var(--custom-primary) !important;
+  box-shadow: 0px 0px 0px 4px #dcfce7 !important;
+}
+
+.custom-input::placeholder {
+  color: var(--custom-grey);
+  font-family: "inter";
+}
+
+.left-icon {
+  position: absolute;
+  float: left;
+  z-index: 100;
+  margin-top: 7px;
+  margin-left: 15px;
+}
+
+.password-icon {
+  position: absolute;
+  float: right;
+  margin-left: -30px;
+  margin-top: 10px;
+
+  z-index: 2;
+}
+
+.input-disabled {
+  background-color: rgba(136, 136, 136, 0.15);
+}
+
+/* //phone input */
+.PhoneInputInput {
+  border: none;
+}
+
+.PhoneInputInput--focus,
+.PhoneInputInput:focus-visible {
+  border: none !important;
+  outline: none !important;
+}
+
+/* //google places auto complete */
+.css-yk16xz-control {
+  border: 1px solid var(--custom-border-grey) !important;
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  background: var(--custom-white);
+}
+
+.css-1f43avz-a11yText-A11yText {
+  overflow-x: visible !important;
+}
+
+.css-1wa3eu0-placeholder {
+  color: var(--custom-grey) !important;
+  font-family: "inter";
+  font-size: 14px !important;
+  /* transform: none !important; */
+}
+
+.css-2b097c-container {
+  /* margin-left: 10px !important; */
+}
+
+.css-1hwfws3 {
+  padding: 0.25rem 0.6rem !important;
+  font-size: 14px !important;
+}
+
+.css-1uccc91-singleValue {
+  color: var(--custom-text-black) !important;
+}
+
+.css-qc6sy-singleValue {
+  margin: 0.2rem 0.4rem !important;
+}
+
+.css-1pahdxg-control {
+  border: 1px solid var(--custom-primary) !important;
+  border-color: var(--custom-primary) !important;
+  /* box-shadow: 1px 0.5px 1px 0.5px var(--custom-primary) !important; */
+  box-shadow: 0px 0px 0px 4px #dcfce7 !important;
+}
+
+/* removing the arrows from number input  */
+.custom-input::-webkit-outer-spin-button,
+.custom-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.custom-input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,29 @@
+.dashboard-aside {
+  max-width: 16vw;
+  min-width: 16vw;
+  height: 100vh;
+  background-color: #286a3a;
+}
+
+.tab-item {
+  cursor: pointer;
+}
+
+.top-bar-text {
+  font-size: 10px;
+}
+
+/* top bar  */
+.top-bar {
+  border-bottom: 1px solid white;
+  min-width: 82vw;
+}
+
+.navigation-menu-text {
+  font-size: 11px;
+  color: white;
+}
+
+.sliding-aside {
+  background-color: #286a3a;
+}

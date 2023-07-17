@@ -1,0 +1,51 @@
+.radio-not-selected {
+  border: 1px solid var(--custom-border-grey) !important;
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  background: var(--custom-white);
+}
+
+.radio-selected {
+  border: 1px solid var(--custom-primary) !important;
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  background: var(--custom-white);
+}
+
+/* //react select */
+
+.css-9gakcf-option {
+  background-color: var(--custom-primary) !important;
+  color: var(--custom-white) !important;
+}
+
+.css-1n7v3ny-option {
+  background-color: #bbf7d0 !important;
+  color: var(--custom-black) !important;
+}
+.css-yt9ioa-option {
+  color: var(--custom-black) !important;
+}
+
+.css-14el2xx-placeholder {
+  color: var(--custom-grey) !important;
+  font-family: "inter";
+  font-size: 14px !important;
+  padding: 0.2rem 0.5rem !important;
+}
+
+.css-qc6sy-singleValue {
+  color: var(--custom-black) !important;
+  font-size: 14px !important;
+  font-family: "inter";
+}
+
+.css-1okebmr-indicatorSeparator {
+  display: none !important;
+}
+
+.css-6j8wv5-Input {
+  padding: 0.2rem 0.8rem !important;
+}
