@@ -1,0 +1,18 @@
+.booking-card {
+  border: 1px solid var(--custom-border-grey);
+  border-radius: 12px;
+  min-width: 580px;
+}
+
+.booking-docs {
+  min-width: 580px;
+}
+
+@media screen and (max-width: 768px) {
+  .booking-card,
+  .booking-docs {
+    min-width: unset;
+    /* width: 100%; */
+    /* border: 0px; */
+  }
+}

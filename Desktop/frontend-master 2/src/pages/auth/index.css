@@ -1,0 +1,59 @@
+.auth-grad {
+  border-radius: 12px 12px 0px 0px;
+  background-image: url("../../assets/backgrounds/gradient-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-green-angular-grad {
+  background-image: conic-gradient(
+    from 180.87deg at 110% 228.57%,
+    #3ab44a 0deg,
+    #c49700 360deg
+  );
+  border-radius: 12px 12px 0px 0px;
+}
+
+.globe-bg {
+  height: 90vh;
+  background-image: url("../../assets/backgrounds/globe-1.png");
+  background-position: bottom;
+  background-size: 80vw;
+  background-repeat: no-repeat;
+}
+
+.auth-card {
+  background: #ffffff;
+  box-shadow: 0px 25px 80px -12px rgba(40, 102, 47, 0.1);
+  border-radius: 12px;
+}
+
+.auth-illustration {
+  width: 600px;
+  height: 500px;
+}
+
+.image-bg-net {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/backgrounds/bg-image.png");
+  height: 600px;
+  background-position: center;
+  background-position-y: 250px;
+}
+
+@media screen and (max-width: 992px) {
+  .globe-bg {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .auth-grad {
+    border-radius: 0px;
+  }
+  .auth-card {
+    border-radius: 0px;
+    box-shadow: unset;
+  }
+}

@@ -1,0 +1,9 @@
+<svg width="16" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M7.332 11.834h-1v1h1v-1Zm0-4v-1h-1v1h1Zm1.333 0h1v-1h-1v1ZM7.332 6.501h-1v1h1v-1Zm0-1.333v-1h-1v1h1Zm1.333 0h1v-1h-1v1ZM8 .834A7.67 7.67 0 0 0 .332 8.501h2a5.67 5.67 0 0 1 5.667-5.667v-2ZM.332 8.501a7.67 7.67 0 0 0 7.667 7.666v-2a5.67 5.67 0 0 1-5.667-5.666h-2Zm7.667 7.666a7.67 7.67 0 0 0 7.666-7.666h-2A5.67 5.67 0 0 1 8 14.167v2Zm7.666-7.666A7.67 7.67 0 0 0 8 .834v2a5.67 5.67 0 0 1 5.666 5.667h2Zm-7 2.333H7.332v2h1.333v-2Zm-.333 1v-4h-2v4h2Zm-1-3h1.333v-2H7.332v2Zm.333-1v4h2v-4h-2Zm1-2.333H7.332v2h1.333v-2Zm-.333 1V5.168h-2v1.333h2Zm-1-.333h1.333v-2H7.332v2Zm.333-1v1.333h2V5.168h-2Z" fill="#fff"/>
+  <mask id="a" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="1" y="1" width="14" height="15">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.999 1.834a6.67 6.67 0 0 0-6.667 6.667 6.67 6.67 0 0 0 6.667 6.666 6.67 6.67 0 0 0 6.666-6.666A6.67 6.67 0 0 0 8 1.834Zm.666 10H7.332v-4h1.333v4Zm0-5.333H7.332V5.168h1.333v1.333Z" fill="#fff"/>
+  </mask>
+  <g mask="url(#a)">
+    <path fill="#676E7E" d="M-8.668-8.166h33.333v33.333H-8.668z"/>
+  </g>
+</svg>

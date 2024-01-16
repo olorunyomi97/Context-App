@@ -1,0 +1,27 @@
+.carousel {
+  overflow: hidden;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+  height: 288px !important;
+  max-height: 288px !important;
+}
+
+.carousel-item {
+  display: inline-block;
+  display: inline-grid;
+  row-gap: 4px;
+  height: 100%;
+}
+
+.indicators {
+  width: 97%;
+  position: absolute;
+  top: 96px;
+}
+
+.indicators-two div {
+  transition: all 0.3s;
+}

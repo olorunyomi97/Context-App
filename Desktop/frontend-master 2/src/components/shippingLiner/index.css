@@ -1,0 +1,102 @@
+.ratemodal {
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+  margin-right: -50% !important;
+  /* padding: 1.5rem !important; */
+  max-height: calc(100vh - 100px) !important;
+  overflow-y: scroll !important;
+  transform: translate(-50%, -50%) !important;
+  width: 430px !important;
+  border-radius: 10px;
+  border: 0.01px solid #888 !important;
+  position: absolute !important;
+  background-color: #fff !important;
+}
+.uploadmodal {
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+  margin-right: -50% !important;
+  /* padding: 1.5rem !important; */
+  max-height: calc(100vh - 100px) !important;
+  /* overflow-y: scroll !important; */
+  transform: translate(-50%, -50%) !important;
+  width: 434px !important;
+  border-radius: 10px !important;
+  border: 0.01px solid #888 !important;
+  position: absolute !important;
+  background-color: #fff !important;
+}
+.successmodal {
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+  margin-right: -50% !important;
+  /* padding: 1.5rem !important; */
+  max-height: calc(100vh - 100px) !important;
+  overflow-y: hidden;
+  transform: translate(-50%, -50%) !important;
+  width: 430px !important;
+  border-radius: 10px !important;
+  border: 0.01px solid #888 !important;
+  position: absolute !important;
+  background-color: #fff !important;
+}
+.newratemodal{
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+  margin-right: -50% !important;
+  /* padding: 1.5rem !important; */
+  max-height: calc(100vh - 100px) !important;
+  /* overflow-y: scroll !important; */
+  transform: translate(-50%, -50%) !important;
+  width: 530px !important;
+  border-radius: 10px !important;
+  border: 0.01px solid #888 !important;
+  position: absolute !important;
+  background-color: #fff !important;
+}
+
+@media (max-width: 500px) {
+  .ratemodal {
+    width: calc(100vw - 10%) !important;
+  }
+  .uploadmodal {
+    width: calc(100vw - 10%) !important;
+  }
+  .successmodal {
+    width: calc(100vw - 10%) !important;
+  }
+  .newratemodal {
+    width: calc(100vw - 10%) !important;
+  }
+}
+
+.summarymodal {
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+  margin-right: -50% !important;
+  /* padding: 1.5rem !important; */
+  max-height: calc(100vh - 100px) !important;
+  overflow-y: scroll !important;
+  transform: translate(-50%, -50%) !important;
+  width: 600px !important;
+  border-radius: 10px !important;
+  border: 0.01px solid #888 !important;
+  position: absolute !important;
+  background-color: #fff !important;
+}
+
+@media (max-width: 500px) {
+  .summarymodal {
+    width: calc(100vw - 10%) !important;
+  }
+}

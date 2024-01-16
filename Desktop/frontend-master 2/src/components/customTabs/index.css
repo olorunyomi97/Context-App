@@ -1,0 +1,20 @@
+.tabs {
+  width: 100%;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* .tab {
+  min-width: 150px;
+} */
+
+.tabs::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+@media only screen and (max-device-width: 768px) {
+  .tabs {
+    width: 100vw;
+  }
+}

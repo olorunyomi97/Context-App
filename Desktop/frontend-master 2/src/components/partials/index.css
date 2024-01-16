@@ -1,0 +1,24 @@
+.dashboard-aside {
+  /* max-width: 14vw;
+  min-width: 14vw !important;
+  /* background-color: rgba(58, 180, 74, 0.1) !important; */
+  width: 240px;
+  height: 100vh;
+  max-height: 100vh;
+  flex-shrink: 0;
+  background-color: #fdfdfc;
+}
+
+.tab-item {
+  cursor: pointer;
+}
+
+/* top bar  */
+.top-bar {
+  /* border-bottom: 1px solid rgb(229, 231, 235); */
+  /* min-width: 86vw; */
+}
+
+.top-bar-bg {
+  background-color: rgba(229, 231, 235, 0.3) !important;
+}

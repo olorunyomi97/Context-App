@@ -1,0 +1,37 @@
+.home-carousel {
+  overflow: hidden;
+}
+
+.home-inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+  /* height: 288px !important;
+  max-height: 288px !important; */
+}
+
+.home-carousel-item {
+  /* display: inline-block;
+  display: inline-grid;
+  row-gap: 4px;
+  height: 100%; */
+  /* width: 300px; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100%; */
+  scroll-snap-type: start;
+  /* border: 5px solid red; */
+  /* background-color: green; */
+}
+
+.home-indicators {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 96px;
+}
+
+.indicators-two div {
+  transition: all 0.3s;
+}

@@ -1,0 +1,17 @@
+{
+  "cSpell.words": [
+    "datasheet",
+    "firstname",
+    "fullname",
+    "incoterms",
+    "lastname",
+    "Oneport",
+    "phyto",
+    "semibold",
+    "signin",
+    "signup",
+    "unlocs"
+  ],
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "editor.formatOnSave": true
+}
